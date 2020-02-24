@@ -200,7 +200,46 @@ a {
 }
 
 .containerabout-page {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.main {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    
+    
+}
+
+.footerAbout {
+    display: flex;
+    box-align: center;
+}
+
+.workTogether {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.mainContent {
+    border: solid black;
+    width: 
+}
+button {
+    width: 25%;
+}
+
+.about {
+    width: 1000px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.headerNavabout {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+    width: 70%;
+    padding-left: 30%;
 }
