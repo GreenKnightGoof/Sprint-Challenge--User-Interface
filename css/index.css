@@ -149,14 +149,20 @@ footer nav a {
 
 .headerNav {
     display: flex;
-    justify-content: space-evenly;
-    width: 80%;
-    padding-left: 110px;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+    width: 70%;
+    padding-left: 30%;
+    
 }
-
 .jumbo {
-    padding-left: 13%;
-    margin-top: 15px;
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-around;
+    width: 80%;
+    padding-left: 18%;
+    margin: 1%;
+
 }
 .box-1 {
     background: teal;
@@ -187,4 +193,14 @@ footer nav a {
 }
 .box-10 {
     background: dodgerblue;
+}
+
+a {
+    color: black;
+}
+
+.containerabout-page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
