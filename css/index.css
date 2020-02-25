@@ -154,16 +154,11 @@ footer nav a {
     justify-content: space-between;
     width: 800px;
     margin: 0 auto;
-    
 }
 .jumbo {
-    display: flex;
-    flex-wrap: row wrap;
-    justify-content: space-around;
-    width: 80%;
-    padding-left: 18%;
-    margin: 1%;
-
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 1%;
 }
 .box-1 {
     background: teal;
@@ -219,9 +214,20 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
+.mainContent {
+    
+}
 
 .jumbo-about {
     width: 800px;
     margin: 0 auto;
-
+}
+.workTogether {
+    width: 800px;
+    margin: 0 auto;
+}
+.footerAbout {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 1%;
 }
