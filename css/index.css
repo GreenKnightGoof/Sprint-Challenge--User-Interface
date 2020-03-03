@@ -68,7 +68,10 @@ p {
 
 .container {
     width: 800px;
+    height: 0 auto;
     margin: 0 auto;
+    color: black;
+    font-weight: bold;
 }
 
 .top-content {
@@ -77,17 +80,20 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    color: black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    color: black;  
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    color: black;
 }
 
 .middle-content h2 {
@@ -104,7 +110,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -129,6 +134,10 @@ p {
 footer {
     width: 100%;
     background: black;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    height: 80px;
+
 }
 
 footer nav {
@@ -143,4 +152,126 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.headerNav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+}
+.jumbo {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.box-1 {
+    background: teal;
+}
+.box-2 {
+    background: gold;
+}
+.box-3 {
+    background: cadetblue;
+}
+.box-4 {
+    background: coral;
+}
+.box-5 {
+    background: crimson;
+}
+.box-6 {
+    background: forestgreen;
+}
+.box-7 {
+    background: darkorchid;
+}
+.box-8 {
+    background: hotpink;
+}
+.box-9 {
+    background: indigo;
+}
+.box-10 {
+    background: dodgerblue;
+}
+
+a {
+    color: black;
+    padding-top: 3%;
+    text-decoration: none;
+}
+
+.containerabout-page {
+    width: 800px;
+    margin: 0 auto;
+    color: black;
+    font-weight: bold;
+}
+
+.headerNavabout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    color: black;
+    font-weight: bold;
+}
+.main {
+    width: 770px;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mainContent {
+    border-bottom: 1px dotted black;
+    width: 380px;
+    margin-top: 2%;
+    align-content: center;
+    margin-bottom: 1%;
+    align-items: stretch;
+}
+p {
+    letter-spacing: 2px;
+}
+.about {
+    border-bottom: 1px dotted black;
+    padding-bottom: 4%;
+}
+.jumbo-about {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+.workTogether {
+    width: 800px;
+    margin: 0 auto;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.footerAbout {
+    width: 850px;
+    margin: 0 auto;
+}
+button {
+    margin-top: 7%;
+    margin-bottom: 2%;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    font-weight: bold;
+}
+h2 {
+    margin-top: 2%;
 }
